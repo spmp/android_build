@@ -34,7 +34,6 @@ PRODUCT_PACKAGES += \
     DeskClock \
     DocumentsUI \
     DownloadProviderUi \
-    Email \
     ExactCalculator \
     ExternalStorageProvider \
     FusedLocation \
@@ -62,6 +61,9 @@ PRODUCT_PACKAGES += \
     VpnDialogs \
     vr \
     MmsService
+# Removed for BP
+#     Email \
+
 
 # The set of packages whose code can be loaded by the system server.
 PRODUCT_SYSTEM_SERVER_APPS += \
